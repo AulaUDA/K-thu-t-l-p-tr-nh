@@ -10,7 +10,9 @@ public class Thien107582_4NC {
         System.out.println("Nhap mot so nguyen");
         int n = scanner.nextInt();
 
-        for (int i = 2; i <= n; i += 2){
+        for (int i = 2; i <= n; i += 2)
+            if (i % 2 == 0)
+        {
             System.out.println(i + " ");
         }
         scanner.close();
